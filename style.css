@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 70%;
+    margin: 0 auto;
+    padding-bottom: 5vw;
+}
+
+
+#header{
+    text-align: center;
+    font-family: Roboto;
+    padding-top:2.464vw;
+}
+
+.btns{
+    display: flex;
+    justify-content: space-around;
+    padding: 2.464vw 0 ;
+}
+
+.btns Button {
+    background: none;
+	color: brown;
+	border: solid 1px brown;
+    border-radius: 0.366vw;
+	padding: 0.166vw 0.6vw;
+	font-family: Roboto;
+	cursor: pointer;
+	outline: inherit;
+    margin: 0 0.464vw ;
+    transition: 0.5s;
+    text-transform: uppercase;
+}
+
+.btns Button:hover{
+    background-color: brown;
+    color: white;
+}
+
+.menuCont{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem 2rem;
+}
+
+@media only screen and (max-width: 890px) {
+    .menuCont {
+        grid-template-columns: 1fr;
+    }
+  }
+
+
+
+.imgDiv{
+    width: 40%;
+    border-radius: 5px;
+    border: solid 1px brown;
+    margin-right: 0.732vw;
+}
+
+.imgDiv img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.menu{
+    width: 100%;
+    height: 10vw;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(240, 239, 239);
+    padding-right: 0.5vw;
+}
+.menuHeader{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: solid 1px grey;
+}
+.container h1{
+    text-align: center;
+    font-family: Roboto;
+    margin-top: 2vw;
+}
+
+.menuHeader h2{
+    font-family: Roboto;
+    font-size: 1.098vw;
+    letter-spacing: 0.146vw;
+    text-transform: capitalize;
+}
+.menuTextSide{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+
+.menuDesc{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    margin: 0.6vw 0 0.732vw 0;
+    font-family: Roboto;
+    font-weight: 300;
+    line-height: 1.5vw;
+    font-size: 1vw;
+}
+
+.menuHeader span{
+    color: brown;
+    letter-spacing: 0.146vw;
+}
+
+
